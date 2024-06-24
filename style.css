@@ -1,0 +1,29 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.tab {
+  background-color: beige;
+  padding: 20px;
+}
+.btn {
+  padding: 10px;
+  border: 1px solid;
+  color: bisque;
+}
+button.active,
+.content.active {
+  background-color: bisque;
+  color: brown;
+}
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
